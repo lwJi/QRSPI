@@ -29,6 +29,8 @@ We will refer `.tasks/add-feature-foo/` as `<task-dir>` in the following section
 
 2. Copy all the comments from `.claude/commends/*` into your `~/.claude/commends`
 
+3. Use `Opus 4.8` with `high` effort
+
 ## QRSPI workflow
 
 1. Create a `ticket.md` in `<task-dir>`.
