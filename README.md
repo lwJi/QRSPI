@@ -88,3 +88,7 @@ We will refer `.tasks/add-feature-foo/` as `<task-dir>` in the following section
     /implement-plan - PATH_TO_PLAN.md
     phase 1 is done, just do phase 2, then update the plan with your progress and await further instructions and confirmation of the manual verification steps
     ```
+
+### Important
+
+* **ALWAYS CREATE A NEW SESSION FOR EACH STEP OF THE WORKFLOW**
