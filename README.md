@@ -27,7 +27,7 @@ We will refer `.tasks/add-feature-foo/` as `<task-dir>` in the following section
 
 1. Copy all the agents from `.claude/agents/*` into your `~/.claude/agents/`
 
-2. Copy all the comments from `.claude/commends/*` into your `~/.claude/commends`
+2. Copy all the comments from `.claude/commands/*` into your `~/.claude/commands`
 
 3. Use `Opus 4.8` with `high` effort
 
