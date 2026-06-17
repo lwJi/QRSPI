@@ -84,7 +84,7 @@ Then wait for the user's research query.
        - Convert to kebab-case, lowercase
        - Remove articles and filler words
        - Keep it concise (3-5 words)
-       - Create: `thoughts/shared/tasks/<description>/`
+       - Create: `.tasks/<description>/`
    - **Write the research file** to `<task-dir>/YYYY-MM-DD-research.md`
    - Structure the document with YAML frontmatter followed by content:
      ```markdown

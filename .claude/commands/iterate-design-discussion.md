@@ -12,7 +12,7 @@ You are tasked with updating existing design discussions based on user feedback.
 When this command is invoked:
 
 1. **Parse the input to identify**:
-   - Design discussion file path (e.g., `thoughts/shared/tasks/<description>/YYYY-MM-DD-design-discussion.md`)
+   - Design discussion file path (e.g., `.tasks/<description>/YYYY-MM-DD-design-discussion.md`)
    - Requested changes/feedback
 
 2. **Handle different input scenarios**:
@@ -21,9 +21,9 @@ When this command is invoked:
    ```
    I'll help you iterate on an existing design discussion.
 
-   Which design discussion would you like to update? Please provide the path to the file (e.g., `thoughts/shared/tasks/<description>/YYYY-MM-DD-design-discussion.md`).
+   Which design discussion would you like to update? Please provide the path to the file (e.g., `.tasks/<description>/YYYY-MM-DD-design-discussion.md`).
 
-   Tip: You can list recent design discussions with `find thoughts/shared/tasks -name "*design-discussion.md" -type f | head`
+   Tip: You can list recent design discussions with `find .tasks -name "*design-discussion.md" -type f | head`
    ```
    Wait for user input, then re-check for feedback.
 
@@ -214,13 +214,13 @@ When spawning research sub-tasks:
 
 **Scenario 1: User provides everything upfront**
 ```
-User: /iterate-design-discussion thoughts/shared/tasks/checkpoint-recover/2025-10-16-design-discussion.md - revisit Q2, Option B is better because we now have the new caching layer
+User: /iterate-design-discussion .tasks/checkpoint-recover/2025-10-16-design-discussion.md - revisit Q2, Option B is better because we now have the new caching layer
 Assistant: [Reads design discussion, researches caching layer, updates Q2 decision]
 ```
 
 **Scenario 2: User provides just the file**
 ```
-User: /iterate-design-discussion thoughts/shared/tasks/checkpoint-recover/2025-10-16-design-discussion.md
+User: /iterate-design-discussion .tasks/checkpoint-recover/2025-10-16-design-discussion.md
 Assistant: I've found the design discussion. What changes would you like to make?
 User: Add a new design question about error recovery strategy
 Assistant: [Proceeds with update]
@@ -230,7 +230,7 @@ Assistant: [Proceeds with update]
 ```
 User: /iterate-design-discussion
 Assistant: Which design discussion would you like to update? Please provide the path...
-User: thoughts/shared/tasks/checkpoint-recover/2025-10-16-design-discussion.md
+User: .tasks/checkpoint-recover/2025-10-16-design-discussion.md
 Assistant: I've found the design discussion. What changes would you like to make?
 User: Narrow the scope - remove the migration piece from desired end state
 Assistant: [Proceeds with update]

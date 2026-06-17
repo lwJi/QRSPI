@@ -1,11 +1,11 @@
 ---
-description: Write a detailed implementation plan from prior QRDSPI artifacts
+description: Write a detailed implementation plan from prior QRSPI artifacts
 model: opus
 ---
 
 # Create Plan
 
-You are tasked with writing a detailed, actionable implementation plan. This is the final planning step in the QRDSPI pipeline - all research, design decisions, and structural outline have already been completed. Your job is to fill in the details.
+You are tasked with writing a detailed, actionable implementation plan. This is the final planning step in the QRSPI pipeline - all research, design decisions, and structural outline have already been completed. Your job is to fill in the details.
 
 ## Initial Response
 
@@ -23,7 +23,7 @@ I'll help write a detailed implementation plan. Please provide:
 
 I'll fill in the implementation details for each phase.
 
-Tip: Run the full QRDSPI pipeline for best results:
+Tip: Run the full QRSPI pipeline for best results:
 /create-research-questions → /create-research → /create-design-discussion → /create-structure-outline → /create-plan
 ```
 

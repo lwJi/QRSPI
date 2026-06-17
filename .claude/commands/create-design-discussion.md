@@ -32,7 +32,7 @@ Then wait for the user's input.
 ### Step 1: Context Gathering & Initial Analysis
 
 1. **Read all mentioned files immediately and FULLY**:
-   - `ticket.md` (e.g., `thoughts/shared/tasks/<description>/ticket.md`)
+   - `ticket.md` (e.g., `<task-dir>/ticket.md`)
    - `*-research-questions.md` - the original research questions
    - `*-research.md` - the detailed research findings
    - Any additional files mentioned
@@ -299,7 +299,7 @@ tasks = [
 ## Example Interaction Flow
 
 ```
-User: use the create-design-discussion skill for thoughts/shared/tasks/checkpoint-recover-subcycling
+User: use the create-design-discussion skill for .tasks/checkpoint-recover-subcycling
 Assistant: Reading the ticket and research artifacts fully.
 
 [Read ticket.md, *-research-questions.md, *-research.md via the Read tool]

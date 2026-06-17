@@ -40,7 +40,7 @@ Delegate file discovery to **`codebase-locator` agents** rather than running Gre
 
 ### Step 3: Generate Research Questions
 
-Every question should be answerable with "the code does X" — never with "we should do Y." If you catch yourself writing "what would need to change," reframe as "how does this currently work." The design phase (later in the QRDSPI pipeline) is where change-oriented thinking belongs.
+Every question should be answerable with "the code does X" — never with "we should do Y." If you catch yourself writing "what would need to change," reframe as "how does this currently work." The design phase (later in the QRSPI pipeline) is where change-oriented thinking belongs.
 
 Based on your scan, generate a flat bullet list of research questions. Each question has two parts:
 
@@ -96,7 +96,7 @@ Before moving to Step 4, re-read your draft questions and rewrite any that trip 
 
 1. **Determine the task directory**:
    - If provided, use it
-   - Otherwise, auto-generate: `thoughts/shared/tasks/<kebab-case-3-5-words>/`
+   - Otherwise, auto-generate: `.tasks/<kebab-case-3-5-words>/`
 
 2. **Write** to `<task-dir>/YYYY-MM-DD-research-questions.md`:
 

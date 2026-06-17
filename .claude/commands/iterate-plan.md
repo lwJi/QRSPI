@@ -215,13 +215,13 @@ When spawning research sub-tasks:
 
 **Scenario 1: User provides everything upfront**
 ```
-User: /iterate-plan thoughts/shared/tasks/checkpoint-recover/2025-10-16-plan.md - add performance benchmarks to Phase 2 success criteria
+User: /iterate-plan .tasks/checkpoint-recover/2025-10-16-plan.md - add performance benchmarks to Phase 2 success criteria
 Assistant: [Reads plan, researches benchmark patterns, updates success criteria]
 ```
 
 **Scenario 2: User provides just the file**
 ```
-User: /iterate-plan thoughts/shared/tasks/checkpoint-recover/2025-10-16-plan.md
+User: /iterate-plan .tasks/checkpoint-recover/2025-10-16-plan.md
 Assistant: I've found the plan. What changes would you like to make?
 User: Split Phase 2 into two phases - one for backend, one for frontend
 Assistant: [Proceeds with update]
@@ -231,7 +231,7 @@ Assistant: [Proceeds with update]
 ```
 User: /iterate-plan
 Assistant: Which plan would you like to update? Please provide the path...
-User: thoughts/shared/tasks/checkpoint-recover/2025-10-16-plan.md
+User: .tasks/checkpoint-recover/2025-10-16-plan.md
 Assistant: I've found the plan. What changes would you like to make?
 User: Add more specific code snippets to Phase 3
 Assistant: [Proceeds with update]
