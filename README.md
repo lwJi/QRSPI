@@ -4,31 +4,32 @@ The commands and agents are taken from the original [RPI](https://github.com/hum
 
 Ticket &rarr; **Questions** &rarr; **Research** &rarr; Design &rarr; **Structure Outline** &rarr; **Plan** &rarr; **Implemention**
 
+## Create a repo to version control QRSPI artifacts
+
+1. Create a repo to store the artifacts genereted during the QRSPI workflow.
+
+2. Go to your project repo and create a soft link to the artifact repo created in Step 1.
+
+    ```
+    cd <project-repo>
+    ln -s <artifact-repo> .tasks/
+    ```
+
+3. Create a new task directory inside `.tasks` for a specific task (for example `add-feature-foo`)
+
+    ```
+    mkdir .tasks/add-feature-foo/
+    ```
+
+We will refer `.tasks/add-feature-foo/` as `<task-dir>` in the following sections.
+
 ## Install QRSPI
 
 1. Copy all the agents from `.claude/agents/*` into your `~/.claude/agents/`
 
 2. Copy all the comments from `.claude/commends/*` into your `~/.claude/commends`
 
-## Create a repo to store QRSPI artifacts
-
-1. Create a repo to store the artifacts genereted during the QRSPI workflow
-
-2. Go to your project repo
-
-3. Create a soft link to the artifact repo created in step 1
-
-4. Create a new task directory inside `.tasks` for a specific task (for example `add-feature-foo`)
-
-```
-cd <project-repo>
-ln -s <artifact-repo> .tasks/
-mkdir .tasks/add-feature-foo/
-```
-
-We will refer `.tasks/add-feature-foo/` as `<task-dir>` in the following sections.
-
-## QRSPI Workflow
+## QRSPI workflow
 
 1. Create a `ticket.md` in `<task-dir>`.
 
