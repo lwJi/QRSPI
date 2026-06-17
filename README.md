@@ -4,7 +4,13 @@ The commands and agents are taken from the original [RPI](https://github.com/hum
 
 Ticket &rarr; **Questions** &rarr; **Research** &rarr; Design &rarr; **Structure Outline** &rarr; **Plan** &rarr; **Implemention**
 
-## Prepare
+## Install QRSPI
+
+1. Copy all the agents from `.claude/agents/*` into your `~/.claude/agents/`
+
+2. Copy all the comments from `.claude/commends/*` into your `~/.claude/commends`
+
+## Create a repo to store QRSPI artifacts
 
 1. Create a repo to store the artifacts genereted during the QRSPI workflow
 
@@ -22,7 +28,7 @@ mkdir .tasks/add-feature-foo/
 
 We will refer `.tasks/add-feature-foo/` as `<task-dir>` in the following sections.
 
-## Manual
+## QRSPI Workflow
 
 1. Create a `ticket.md` in `<task-dir>`.
 
