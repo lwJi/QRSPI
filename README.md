@@ -50,7 +50,7 @@ We will refer `.tasks/add-feature-foo/` as `<task-dir>` in the following section
     * Q2
     ```
 
-    where the questions are copied from the output artifact of Step 2. Do not copy the ticket content to keep the questions objective.
+    where the questions are copied from the output artifact of Step 2. **DO NOT** copy the ticket content to keep the questions objective.
 
 4. Discussion
 
