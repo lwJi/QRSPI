@@ -1,5 +1,6 @@
 # QRSPI
-QRSPI is an expansion of the RPI workflow from [Humanlayer](https://github.com/humanlayer/humanlayer).
+
+The commands and agents are taken from the original [RPI](https://github.com/humanlayer/humanlayer) and are broken down according to the [talk](https://www.youtube.com/watch?v=YwZR6tc7qYg).
 
 Ticket &rarr; **Questions** &rarr; **Research** &rarr; Design &rarr; **Structure Outline** &rarr; **Plan** &rarr; **Implemention**
 
