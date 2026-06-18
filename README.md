@@ -52,7 +52,7 @@ We will refer `.tasks/add-feature-foo/` as `<task-dir>` in the following section
 
     where the questions are copied from the output artifact of Step 2. **DO NOT** copy the ticket content to keep the questions objective.
 
-4. Discussion
+4. Design Discussion
 
     ```
     use the create-design-discussion skill for <task-dir>
@@ -61,7 +61,7 @@ We will refer `.tasks/add-feature-foo/` as `<task-dir>` in the following section
     You can also iterate the design with
 
     ```
-    use the iterate-plan skill to update the plan doc (<plan-doc>)
+    use the iterate-design-discussion skill to update the design-discussion doc (<design-discussion-doc>)
     ```
 
 5. Structure Outline
@@ -74,6 +74,12 @@ We will refer `.tasks/add-feature-foo/` as `<task-dir>` in the following section
 
     ```
     use the create-plan skill for <task-dir>
+    ```
+
+    You can also iterate the plan with
+
+    ```
+    use the iterate-plan skill to update the plan doc (<plan-doc>)
     ```
 
 7. Implement Plan
