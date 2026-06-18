@@ -100,3 +100,5 @@ We will refer `.tasks/add-feature-foo/` as `<task-dir>` in the following section
 ### Important
 
 * **ALWAYS CREATE A NEW SESSION FOR EACH STEP OF THE WORKFLOW**
+
+* Attach the design-discussion doc into your PR to help the reviewer
