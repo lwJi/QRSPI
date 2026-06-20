@@ -2,6 +2,10 @@
 
 The commands and agents are taken from the original [RPI](https://github.com/humanlayer/humanlayer) and are broken down according to the [talk](https://www.youtube.com/watch?v=YwZR6tc7qYg).
 
+*I highly recommend checking out their native IDE as well: [https://www.humanlayer.com](https://www.humanlayer.com).*
+
+## Pipeline breakdown
+
 Ticket &rarr; **Questions** &rarr; **Research** &rarr; Design &rarr; **Structure Outline** &rarr; **Plan** &rarr; **Implemention**
 
 ## Create a repo to version control QRSPI artifacts
