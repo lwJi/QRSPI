@@ -42,13 +42,13 @@ We will refer `.tasks/add-feature-foo/` as `<task-dir>` in the following section
 2. Generate research questions
 
     ```
-    use the create-research-questions skill for <task-dir>
+    use the create-research-questions command for <task-dir>
     ```
 
 3. Research codebase to answer the above research questions
 
     ```
-    use the create-research skill with the following questions (write the doc to <task-dir>)
+    use the create-research command with the following questions (write the doc to <task-dir>)
 
     * Q1
     * Q2
@@ -59,31 +59,31 @@ We will refer `.tasks/add-feature-foo/` as `<task-dir>` in the following section
 4. Design Discussion
 
     ```
-    use the create-design-discussion skill for <task-dir>
+    use the create-design-discussion command for <task-dir>
     ```
 
     You can also iterate the design with
 
     ```
-    use the iterate-design-discussion skill to update the design-discussion doc (<design-discussion-doc>)
+    use the iterate-design-discussion command to update the design-discussion doc (<design-discussion-doc>)
     ```
 
 5. Structure Outline
 
     ```
-    use create-structure-outline skill for <task-dir>
+    use create-structure-outline command for <task-dir>
     ```
 
 6. Write Plan
 
     ```
-    use the create-plan skill for <task-dir>
+    use the create-plan command for <task-dir>
     ```
 
     You can also iterate the plan with
 
     ```
-    use the iterate-plan skill to update the plan doc (<plan-doc>)
+    use the iterate-plan command to update the plan doc (<plan-doc>)
     ```
 
 7. Implement Plan
