@@ -35,10 +35,10 @@ We will refer `.tasks/add-feature-foo/` as `<task-dir>` in the following section
 
 3. Use the recommended effort for each model
 
-| model | effort |
-|:-----:|:------:|
-| `Opus 4.8` | `high` |
-| `Opus 5` | `medium` |
+    | model | effort |
+    |:-----:|:------:|
+    | `Opus 4.8` | `high` |
+    | `Opus 5` | `medium` |
 
 ## QRSPI workflow
 
