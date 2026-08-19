@@ -33,7 +33,12 @@ We will refer `.tasks/add-feature-foo/` as `<task-dir>` in the following section
 
 2. Copy all the comments from `.claude/commands/*` into your `~/.claude/commands`
 
-3. Use `Opus 4.8` with `high` effort
+3. Use the recommended effort for each model
+
+| model | effort |
+|:-----:|:------:|
+| `Opus 4.8` | `high` |
+| `Opus 5` | `medium` |
 
 ## QRSPI workflow
 
